@@ -1,0 +1,6 @@
+---
+
+services:
+  exercises:
+    build: .
+    command: make check

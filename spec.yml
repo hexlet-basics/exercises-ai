@@ -1,0 +1,10 @@
+---
+
+language:
+  docker_image: "ghcr.io/hexlet-basics/exercises-ai"
+  extension: md
+  exercise_filename: solution.md
+  exercise_test_filename: test.js
+  learn_as: first_language
+  progress: in_progress
+  name: AI

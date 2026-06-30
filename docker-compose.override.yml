@@ -1,0 +1,6 @@
+---
+
+services:
+  exercises:
+    volumes:
+      - .:/exercises-ai
