@@ -15,10 +15,10 @@ compose-install:
 	docker-compose run --rm exercises npm ci
 
 code-lint:
-	npx @biomejs/biome check
+	npx oxlint && npx oxfmt --check
 
 code-lint-fix:
-	npx @biomejs/biome check --fix
+	npx oxfmt && npx oxlint --fix
 
 compose-bash:
 	docker-compose run --rm exercises bash
